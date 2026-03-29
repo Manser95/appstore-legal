@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Bill Reminder</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --green: #34C759;
+      --green-dark: #248A3D;
+      --text: #1c1c1e;
+      --text-secondary: #6e6e73;
+      --bg: #ffffff;
+      --surface: #f2f2f7;
+      --border: #e5e5ea;
+      --radius: 12px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text: #f2f2f7;
+        --text-secondary: #aeaeb2;
+        --bg: #000000;
+        --surface: #1c1c1e;
+        --border: #38383a;
+      }
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 17px;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--green) 0%, var(--green-dark) 100%);
+      padding: 56px 24px 40px;
+      text-align: center;
+      color: white;
+    }
+
+    .app-icon {
+      width: 72px;
+      height: 72px;
+      border-radius: 16px;
+      background: rgba(255,255,255,0.2);
+      margin: 0 auto 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 36px;
+    }
+
+    header h1 {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    header p {
+      margin-top: 6px;
+      font-size: 15px;
+      opacity: 0.85;
+    }
+
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 12px 24px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    nav a {
+      color: var(--green-dark);
+      text-decoration: none;
+      margin: 0 12px;
+    }
+
+    nav a:hover { text-decoration: underline; }
+
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+
+    .meta {
+      background: var(--surface);
+      border-radius: var(--radius);
+      padding: 16px 20px;
+      margin-bottom: 36px;
+      font-size: 14px;
+      color: var(--text-secondary);
+    }
+
+    .meta strong { color: var(--text); }
+
+    h2 {
+      font-size: 22px;
+      font-weight: 700;
+      margin: 40px 0 12px;
+      color: var(--text);
+      letter-spacing: -0.3px;
+    }
+
+    h2:first-of-type { margin-top: 0; }
+
+    p { margin-bottom: 12px; }
+
+    ul {
+      margin: 8px 0 12px 20px;
+    }
+
+    ul li { margin-bottom: 6px; }
+
+    a { color: var(--green-dark); }
+
+    .highlight-box {
+      background: var(--surface);
+      border-left: 4px solid var(--green);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      padding: 16px 20px;
+      margin: 16px 0;
+    }
+
+    .highlight-box p:last-child { margin-bottom: 0; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 15px;
+    }
+
+    th {
+      text-align: left;
+      padding: 10px 12px;
+      background: var(--surface);
+      border-bottom: 2px solid var(--border);
+      font-weight: 600;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-secondary);
+    }
+
+    td {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+
+    tr:last-child td { border-bottom: none; }
+
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      border-top: 1px solid var(--border);
+      font-size: 14px;
+      color: var(--text-secondary);
+    }
+
+    footer a { color: var(--green-dark); }
+
+    @media (max-width: 480px) {
+      header { padding: 40px 16px 28px; }
+      header h1 { font-size: 24px; }
+      main { padding: 28px 16px 60px; }
+      table { font-size: 14px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="app-icon">📋</div>
+  <h1>Privacy Policy</h1>
+  <p>Bill Reminder — Bills Tracker</p>
+</header>
+
+<nav>
+  <a href="../">Home</a>
+  <a href="../privacy/">Privacy Policy</a>
+  <a href="../terms/">Terms of Use</a>
+</nav>
+
+<main>
+
+  <div class="meta">
+    <strong>Last updated:</strong> March 29, 2026 &nbsp;·&nbsp;
+    <strong>App:</strong> Bill Reminder (com.darkside.billreminder) &nbsp;·&nbsp;
+    <strong>Contact:</strong> <a href="mailto:support@darkside.dev">support@darkside.dev</a>
+  </div>
+
+  <div class="highlight-box">
+    <p><strong>Short version:</strong> Bill Reminder stores all your data locally on your device. We do not collect, sell, or share your personal information. Subscriptions are processed through Apple (StoreKit) and RevenueCat.</p>
+  </div>
+
+  <!-- 1 -->
+  <h2>1. Who We Are</h2>
+  <p>Bill Reminder is developed and published by <strong>Bakaev Mansur (ИП)</strong> ("we", "us", "our"). If you have any questions about this Privacy Policy, please contact us at <a href="mailto:support@darkside.dev">support@darkside.dev</a>.</p>
+
+  <!-- 2 -->
+  <h2>2. What Data We Collect</h2>
+
+  <p>Bill Reminder is designed to work entirely offline. Most data never leaves your device.</p>
+
+  <table>
+    <tr>
+      <th>Data Type</th>
+      <th>Where Stored</th>
+      <th>Purpose</th>
+    </tr>
+    <tr>
+      <td>Bills (title, amount, due date, repeat interval)</td>
+      <td>On your device (SwiftData)</td>
+      <td>Core app functionality</td>
+    </tr>
+    <tr>
+      <td>Payment history</td>
+      <td>On your device (SwiftData)</td>
+      <td>History screen</td>
+    </tr>
+    <tr>
+      <td>App settings (default currency, notification preferences)</td>
+      <td>On your device (UserDefaults)</td>
+      <td>User preferences</td>
+    </tr>
+    <tr>
+      <td>Onboarding completion flag</td>
+      <td>On your device (UserDefaults)</td>
+      <td>Show onboarding only once</td>
+    </tr>
+    <tr>
+      <td>Anonymous purchase data (subscription status, purchase history)</td>
+      <td>RevenueCat servers (US)</td>
+      <td>Subscription management and validation</td>
+    </tr>
+  </table>
+
+  <p><strong>We do not collect:</strong> your name, email address, location, contacts, photos, financial account details, or any other personal information.</p>
+
+  <!-- 3 -->
+  <h2>3. Local Data Storage</h2>
+  <p>All your bills, payment history, and preferences are stored locally on your device using Apple's SwiftData and UserDefaults frameworks. This data:</p>
+  <ul>
+    <li>Never leaves your device (except iCloud backup, if you have iCloud backup enabled)</li>
+    <li>Is permanently deleted when you uninstall the app</li>
+    <li>Is not accessible to us at any time</li>
+  </ul>
+  <p>If you use iCloud backup, your data may be backed up according to Apple's Privacy Policy. We have no access to iCloud backups.</p>
+
+  <!-- 4 -->
+  <h2>4. Subscriptions — RevenueCat</h2>
+  <p>Bill Reminder uses <strong>RevenueCat</strong>, a subscription management service, to process and validate Premium subscriptions.</p>
+
+  <p><strong>What RevenueCat collects:</strong></p>
+  <ul>
+    <li>Subscription status and purchase history</li>
+    <li>An anonymous customer identifier generated by RevenueCat (not tied to your Apple ID)</li>
+    <li>Device platform and app version (for purchase validation)</li>
+  </ul>
+
+  <p><strong>What RevenueCat does NOT collect:</strong></p>
+  <ul>
+    <li>Your name, email, or any personal identifiers</li>
+    <li>Your payment card details (handled entirely by Apple)</li>
+    <li>The content of your bills or any data you enter</li>
+  </ul>
+
+  <div class="highlight-box">
+    <p>RevenueCat is GDPR-compliant. Learn more at <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">revenuecat.com/privacy</a>.</p>
+  </div>
+
+  <!-- 5 -->
+  <h2>5. Push Notifications</h2>
+  <p>Bill Reminder uses <strong>local push notifications</strong> to remind you about upcoming bill payments. These notifications are:</p>
+  <ul>
+    <li>Scheduled entirely on your device — no notification server is involved</li>
+    <li>Not used to deliver advertising or marketing messages</li>
+    <li>Only sent after you grant notification permission</li>
+  </ul>
+  <p>You can disable notifications at any time in <strong>iOS Settings → Bill Reminder → Notifications</strong>.</p>
+
+  <!-- 6 -->
+  <h2>6. In-App Purchases and Subscriptions</h2>
+  <p>Bill Reminder offers optional Premium subscriptions processed entirely by Apple through the App Store. We do not have access to your payment information, credit card details, or billing address.</p>
+  <p>Apple's handling of payment data is governed by <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's Privacy Policy</a>. To manage or cancel your subscription, go to <strong>iOS Settings → Apple ID → Subscriptions</strong>.</p>
+
+  <!-- 7 -->
+  <h2>7. Data Sharing</h2>
+  <p>We do not sell, trade, or transfer your personal data to third parties. The only services that receive any data are:</p>
+  <ul>
+    <li><strong>RevenueCat</strong> — subscription management (see Section 4)</li>
+    <li><strong>Apple</strong> — payment processing for subscriptions (see Section 6)</li>
+  </ul>
+  <p>We do not share data with advertisers, data brokers, or any other parties.</p>
+
+  <!-- 8 -->
+  <h2>8. Children's Privacy</h2>
+  <p>Bill Reminder is not directed at children under the age of 13 (or 16 in the EU). We do not knowingly collect personal information from children. If you believe a child has used the App without parental consent, please contact us at <a href="mailto:support@darkside.dev">support@darkside.dev</a> and we will take appropriate action within 30 days, including deleting any applicable data.</p>
+
+  <!-- 9 -->
+  <h2>9. Your Rights (GDPR / CCPA)</h2>
+  <p>Since we do not collect personal data, most data privacy rights are satisfied by design. However:</p>
+  <ul>
+    <li><strong>Access / Portability:</strong> All your data is stored on your device — you have full access at all times.</li>
+    <li><strong>Deletion:</strong> Uninstalling the app permanently deletes all local data. RevenueCat purchase records may be retained as required by Apple for subscription management.</li>
+  </ul>
+
+  <!-- 10 -->
+  <h2>10. Data Security</h2>
+  <p>All data is stored locally on your device and protected by iOS sandboxing and device encryption (when you enable a passcode or Face ID). We have no servers storing your data and therefore cannot be subject to server-side data breaches.</p>
+
+  <!-- 11 -->
+  <h2>11. Changes to This Privacy Policy</h2>
+  <p>We may update this Privacy Policy from time to time. When we do, we will update the "Last updated" date at the top of this page. Continued use of the app after changes constitutes acceptance of the updated policy. For significant changes, we will provide an in-app notice.</p>
+
+  <!-- 12 -->
+  <h2>12. Contact Us</h2>
+  <p>If you have any questions, concerns, or requests regarding this Privacy Policy, please contact us:</p>
+  <ul>
+    <li>Email: <a href="mailto:support@darkside.dev">support@darkside.dev</a></li>
+  </ul>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 <strong>Bakaev Mansur (ИП)</strong>. All rights reserved.</p>
+  <p style="margin-top: 8px;">
+    <a href="../">Bill Reminder</a> &nbsp;·&nbsp;
+    <a href="../privacy/">Privacy Policy</a> &nbsp;·&nbsp;
+    <a href="../terms/">Terms of Use</a>
+  </p>
+</footer>
+
+</body>
+</html>
